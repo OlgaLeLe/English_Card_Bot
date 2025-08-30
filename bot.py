@@ -14,7 +14,7 @@ from db import (
 print('Start telegram bot...')
 
 state_storage = StateMemoryStorage()
-token_bot = ''   # <-- сюда вставь токен
+token_bot = '7974218001:AAFh6z3Hnd7uLs-HjwgTQ1XEtYNIkLa2NTc'  
 bot = TeleBot(token_bot, state_storage=state_storage)
 
 known_users = []
